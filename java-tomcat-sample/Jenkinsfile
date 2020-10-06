@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy in Staging Environment'){
             steps{
-                sh 'cp java-tomcat-sample/target/java-tomcat-maven-example.war  /opt/tomcat/webapps'
+                sh 'sudo cp java-tomcat-sample/target/java-tomcat-maven-example.war  /opt/tomcat/webapps'
                 echo "Deploy Application To Staging Environment"
                  }
         }
