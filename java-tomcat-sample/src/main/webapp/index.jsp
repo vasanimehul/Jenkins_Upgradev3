@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2>Hello World! Welcome to Jenkins Training v2 Code Pipeline...</h2>
-<p>This is my Jenkins First Deploy Job</p>
+<h2>Welcome to AWS and Devops Training</h2>
+<p>I have successfully created Jenkins Pipeline jobs which is automatically packaging Java war file and deploy into production Server.</p>
 </body>
 </html>
