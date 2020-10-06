@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy in Staging Environment'){
             steps{
-                sh 'cp **/*.war  /opt/tomcat/webapps
+                sh 'cp **/*.war  /opt/tomcat/webapps'
                 echo "Deploy Application To Staging Environment"
                  }
         }
